@@ -20,5 +20,5 @@ from CovidDataApp.views import SignUpView, UserDataView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/signup/', SignUpView.as_view()),
-    path('user/data/', UserDataView.as_view()),
+    path('user/data/', UserDataView.as_view())
 ]
